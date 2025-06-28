@@ -1,0 +1,29 @@
+{
+  "totalBookings": [
+    { "category": "Flights", "value": 4000 },
+    { "category": "Buses", "value": 4000 },
+    { "category": "Car Rent", "value": 4000 },
+    { "category": "Hotels", "value": 4000 },
+    { "category": "Train", "value": 4000 },
+    { "category": "Events", "value": 4000 },
+    { "category": "Tours", "value": 4000 }
+  ],
+  "totalSpending": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "data": [20000, 40000, 60000, 90000, 90, 150000, 170000, 200000, 210000, 220000, 230000, 240800],
+    "trend": [10000, 0, 30000, 50000, 70000, 100000, 0, 111110, 150000, 180000, 200000, 20000]
+  },
+  "recentBookings": [
+    { "orderId": "EVT 11234124", "bookedFor": "Test", "bookingType": "Event", "debit": 1000, "credit": 1000, "total": 1000, "status": "Unpaid" },
+    { "orderId": "EVT 11234125", "bookedFor": "Test", "bookingType": "Event", "debit": 1000, "credit": 1000, "total": 1000, "status": "Unpaid" },
+    { "orderId": "EVT 11234126", "bookedFor": "Test", "bookingType": "Event", "debit": 1000, "credit": 1000, "total": 1000, "status": "Paid" },
+    { "orderId": "EVT 11234127", "bookedFor": "Test", "bookingType": "Event", "debit": 1000, "credit": 1000, "total": 1000, "status": "Paid" },
+    { "orderId": "EVT 11234128", "bookedFor": "Test", "bookingType": "Event", "debit": 1000, "credit": 1000, "total": 1000, "status": "Unpaid" },
+    { "orderId": "EVT 11234129", "bookedFor": "Test", "bookingType": "Event", "debit": 1000, "credit": 0, "total": 1000, "status": "Pending" }
+  ],
+  "dashboardCards": {
+    "totalBookings": { "value": 512, "change": -11.09 },
+    "totalSavings": { "value": 45666, "change": 11.09 },
+    "totalExpense": { "value": 512, "change": -11.09 }
+  }
+} 
